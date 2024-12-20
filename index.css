@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top, rgba(6, 1, 19, 0.872)100%, rgba(6, 1, 19, 0.872)100%), url(images/Aprende\ a\ Descansar\ y\ No\ te\ Rindas\ !.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mother {
+  display: flex;
+  justify-content: center;
+}
+
+.mother .logo{
+  width:80%
+}
+
+.secondChild .head{
+  font-size: 59px;
+  color: white;
+}
+
+.thirdChild{
+  border: 5px solid white;
+}
+
+.thirdInChild{
+  display: flex;
+
+}
+
+.thirdChild .text{
+  background-color: white;
+  width: 50%;
+  color: navy;
+  padding: 2px;
+  font-size: 25px;
+}
+
+.thirdChild p{
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.thirdChild .apesin{
+  color: white;
+  padding: 2px;
+  font-size: 25px;
+}
+
+.secondMother, .thirdMother{
+  text-align: center;
+  margin: 2rem;
+}
+
+.services{
+  color: white;
+  text-decoration: 2px solid underline;
+  font-size: 2rem;
+}
+
+.secondMother ul li{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.thirdMother ul li{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+footer{
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h3{
+  padding-left: 5px;
+}
